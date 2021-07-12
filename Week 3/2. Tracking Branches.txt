@@ -1,0 +1,12 @@
+1. A tracking branch is a local branch that reprsents a remote branch.
+   <remote>/<branch>
+2. Tracking branches are related but decoupled.
+3. A tracking may/maynot be in sync with its corresponding remote branch.
+4. A tracking branch may/maynot be in sync with its corresponding local branch.
+5. git branch
+    displays only local branches
+6. git branch -all
+   displays local + tracking branches
+7. When you clone a repository, the default branch is set up as a tracking branch.
+8. If you made local commits, the local branch will get ahead of the tracking branch.
+9. To sync them, we use git push command. 

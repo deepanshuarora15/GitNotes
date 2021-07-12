@@ -1,0 +1,26 @@
+1. git status
+   // gives you the status of files in the working tree and the staging area.
+   // Eg: on branch master
+      nothing to commit, working tree clean
+2. As there are no files shown in git status, so commit would not work as of now. It will throw error.
+3. If you create a file or modify an existing file and do
+   git status
+   // This will now give you a list of files - intracked and modified. They will come in red
+4. After checking the staus, the next step we have to do , is to stage the files
+   git add filename1.txt
+5. If you create a new subdirectory, then instead of having to add files individually, just ad dthe sub-directory.
+   git add subfolder1
+6. If there are too many files, adding them individually will take a lot of effort. So shortcut command:
+   git add .
+7. When the file is staged, it is shown as 'A'. If it is modified it is 'M', When it is untracked it is 'U'
+8. If you stage a file, and then modify it later, it will go from status 'A'->'AM'. This is visible when you do
+   git status -m. Both the flags 'AM' would be visible.
+9. After all this, we need to go for commits. Commits are made to the local repository using the commit command
+   git commit -m "Added trackers"
+10. The commit message is visible when viewing the project history, so it is required that ie be clear and precise.
+11. Once the commit has been done, git status is gonna show a clean slate.
+12. git log 
+    // This will give the entire history of commits available. 
+13. git log --oneline
+    // gives a condensed version of the log
+14. git log --oneline -2 // gives the 2 most recent commits.

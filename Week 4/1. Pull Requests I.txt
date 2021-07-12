@@ -1,0 +1,14 @@
+1. There are two types of repository setups:
+   a. Single repository
+   b. Multi-repository
+2. When do you open a PR?
+   a. When the branch is created
+   b. When you want comments on a branch
+   c. When the branch is ready for review/merging
+3. Single repository pull requests:
+   a. Create a feature branch
+   b. Optionally work on the feature branch
+   c. Push the branch to the remote repository
+4. Once you are done raising the PR and it has been reviewed, what we need to do is:
+   a. Merge Commit: the merge creates a separate commit object ( git merge --no-ff )
+   b. Squash - the entire branch is condensed to one linear commit ( git merge --squash)

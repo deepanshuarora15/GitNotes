@@ -1,0 +1,15 @@
+1. A git object is used to store 4 types of things:
+   a. Commit object : A small text file
+   b. Annotated flag : A reference to a specific commit
+   c. Tree : Directories and filenames in the project
+   d. Blob: The content of a file in the project
+
+   Out of these users generally only interact with 1a and 1b
+2. These objects are stored by git in something known as object store.
+3. git id is used for every commit. It's a SHA-1 value. So this way, every commit gets a unique git id.
+   If the commit content is exactly the same, SHA-1 is same, but even if there is a minoscule difference between the commits,
+   the SHA-1 value will have a huge difference
+4. git hash-object filename1.text
+   will return the SHA-1 value for it.
+5. A git object name is the same as its git id
+   

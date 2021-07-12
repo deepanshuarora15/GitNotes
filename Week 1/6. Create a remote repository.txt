@@ -1,0 +1,14 @@
+1. Remote repsoitory is the single source of truth.
+2. It can and is usually integrated with other systems like issue trackers and continous delivery pipelines.
+3. Hosted options:
+   a. bitbucket
+   b. GitHub
+4. On-premise solutions:
+   a. Bitbucket server
+   b. GitHub Enterprise
+   c. Open source software
+5. Remote repository is often a bare repository whose names generally ends in '.git'. A repository whose name ends in .git
+   is the indication for a repository being a remote repository.
+6. Creating a remote repsoitory is fairly easy with bitbucket GUI. Just go the website and hit click repository and follow the
+   instructions.
+7. Importing an older repository from someplace else, is also possible via GUI.

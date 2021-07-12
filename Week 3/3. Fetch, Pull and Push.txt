@@ -1,0 +1,20 @@
+1. There are 4 network commands:
+   a. Clone
+   b. Fetch: retreives new objects and references from the remote repository. Tracking branches are updated.
+   c. Pull: Fetches and merges commits locally
+   d. Push: Adds new objects and references to the remote repository
+2. After perfoming, git fetch, doing git status would tell you if your local rep is behind your remote rep.
+3. Pull: Combines git fetch with git merge FETCH_HEAD
+   a. If objects are merged, then the tracking merge is merged into the current local branch
+   b. This is similar to a topic branch merging into the base branch.
+4. Git pull mergin options:
+   a. --ff (default): fast forward if possible, otherwise only merge commits
+   b. --no-ff - always include a merge commit
+   c. --ff-only : cancel instead of doing a merge commit
+   d. --rebase [--preserve-merges] 
+5. git pull command:
+   a. if pull is going to overwrite some files, to which you are already making changes, then it will gove error. In that case
+      you would have to either stash or commit
+   b. if not then oull is gonna work anyway
+6. git push origin {branchname}
+7. Rule: Always do a pull before push. This is because, any pushes amde without takign a pull, are gonna fail by default

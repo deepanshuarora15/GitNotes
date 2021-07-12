@@ -1,0 +1,326 @@
+1.
+Question 1
+Which one of these statements about Git is true?
+
+1 / 1 point
+
+Git helps manage the history of the project. Correct
+
+
+A commit containing one small change to a project is not practical.
+
+
+Each version of the project is called a branch.
+
+Correct
+This is covered in 'DevOps and Git in a Nutshell'.
+
+2.
+Question 2
+Which one of these statements about branches is true?
+
+1 / 1 point
+
+A branch contains a small part of the project.
+
+
+By default, a commit does not belong to a branch.
+
+
+The default branch is named "master". Correct
+
+Correct
+This is covered in 'DevOps and Git in a Nutshell'.
+
+3.
+Question 3
+What is a request to merge your branch into another branch called?
+
+1 / 1 point
+
+Automated test
+
+
+Pull request Correct
+
+
+Code review
+
+Correct
+This is covered in 'DevOps and Git in a Nutshell'.
+
+4.
+Question 4
+If a remote repository is offline, which one of the following is true?
+
+1 / 1 point
+
+You must wait for the remote repository to become available.
+
+
+You can continue to work with the local repository.
+Correct
+
+You can continue to work, but only with the current version of the project.
+
+Correct
+This is covered in 'Git Overview'.
+
+5.
+Question 5
+Which one of the following is true?
+
+1 / 1 point
+
+Git is owned by a single company.
+
+
+Git implements distributed version control.
+Correct
+
+Git does not scale to large projects.
+
+Correct
+This is covered in 'Git Overview'.
+
+6.
+Question 6
+Which one of these statements about commits is true?
+
+1 / 1 point
+
+A commit contains only the changes to the project since the previous commit.
+
+
+Only the most recent commit is saved in the repository.
+
+
+A commit is a snapshot of the project. Correct
+
+Correct
+This is covered in 'Git Overview'.
+
+7.
+Question 7
+Which location contains the list of files that will be included in the next commit?
+
+1 / 1 point
+
+Remote repository
+
+
+Branch
+
+
+Staging area
+Correct
+
+Working tree
+
+Correct
+This is covered in 'Git Locations'.
+
+8.
+Question 8
+Which location contains the commit history of a project?
+
+0 / 1 point
+
+Remote repository
+
+
+Working tree
+
+
+Staging area
+InCorrect
+
+Branch
+
+Incorrect
+This is covered in 'Git Locations'.
+
+9.
+Question 9
+When a file is first placed in the working tree, what is its status?
+
+1 / 1 point
+
+Committed
+
+
+Untracked
+Correct
+
+Modified
+
+
+Staged
+
+Correct
+This is covered in 'Commit to a Local Repository'.
+
+10.
+Question 10
+What must you do to add a new file to the next commit?
+
+1 / 1 point
+
+Check out the file.
+
+
+Push the file.
+
+
+Tag the file.
+
+
+Add the file to the staging area.
+Correct
+
+Correct
+This is covered in 'Commit to a Local Repository'.
+
+11.
+Question 11
+If you create a local repository in a folder with existing files, what will be the status of the files?
+
+1 / 1 point
+
+Modified
+
+
+Untracked
+Correct
+
+
+Staged
+
+
+Committed
+
+Correct
+This is covered in 'Commit to a Local Repository'.
+
+12.
+Question 12
+Immediately after you commit, where is the commit located?
+
+1 / 1 point
+
+Local repository
+Correct
+
+
+Remote repository
+
+
+Local repository and remote repository
+
+
+Neither repository
+
+Correct
+This is covered in 'Commit to a Local Repository'.
+
+13.
+Question 13
+Which one of these statements about remote repositories is true?
+
+1 / 1 point
+
+By convention, remote repository names end in ".git". Correct
+
+
+A remote repository usually has a staging area.
+
+
+A remote repository usually has a working tree.
+
+
+You must have one remote repository for each local repository.
+
+Correct
+This is covered in 'Create a Remote Repository'.
+
+14.
+Question 14
+What is a local copy of a remote repository called?
+
+1 / 1 point
+
+Branch
+
+
+Master
+
+
+Clone
+Correct
+
+
+Origin
+
+Correct
+This is covered in 'Push to a Remote Repository'.
+
+15.
+Question 15
+After you clone a repository, which one of the following is true?
+
+1 / 1 point
+
+Only the most recent commit is available locally.
+
+
+New commits on the remote repository will automatically be added to the local repository.
+
+
+The remote repository information is available in the local repository.
+ Correct
+
+New commits to the local repository will automatically be pushed to the remote repository.
+
+Correct
+This is covered in 'Push to a Remote Repository'.
+
+16.
+Question 16
+What is origin?
+
+1 / 1 point
+
+The first version of a file in the repository.
+
+
+The first commit of the repository.
+
+
+The default branch name.
+
+
+An alias for the remote repository's URL.
+Correct
+
+Correct
+This is covered in 'Push to a Remote Repository'.
+
+17.
+Question 17
+What must you do to add a local commit to the remote repository?
+
+1 / 1 point
+
+Push
+Correct
+
+Pull
+
+
+Merge
+
+
+Stage
+
+Correct
+This is covered in 'Push to a Remote Repository'.

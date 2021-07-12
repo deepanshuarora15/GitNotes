@@ -1,0 +1,16 @@
+1. If you have no local repository, then it's better to set up the remote repository on github first. It's easy via GUI.
+   Then use git clone 'URL' to clone the repo to local.
+   a. URL always ends with .git extension. It is the extension of remote repository
+   b. If you want to repo to be downloaded with a new name, then
+      git clone 'URL/to/projectname.git'
+   c. All commits in the remote repo, are also in your local repos now
+   d. git remote --verbose
+      Displays info about the remote repo associated with the local repo. Shows the link from where you cloned it
+2. If you have made a local repo and have made commits, and want to add those to the remote repo, then
+   git remote add <name> <url>
+   Eg: git remote add origin 'https://me@bitbucket.org/me/repoa.git'
+3. All the commits that you do will by default be on the main/master branch.
+4. git push origin branchname
+   Note: origin is an alias for remote. If no alis is there then use 'https:///' or whatever the URL is
+5. git remote -v
+   This will give you the clone alias name

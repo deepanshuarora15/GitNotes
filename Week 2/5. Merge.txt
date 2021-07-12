@@ -1,0 +1,25 @@
+1. When a branch is merged into the master branch, it usually gets deleted.
+2. 4 merge ways:
+   a. fast forward merge
+   b. Merge commit
+   c. Squash Merge 
+   d. Rebase
+3. Fast forward merge:
+   It is allowed if and only if the master branch has not received any commits, since the topic branch was created. 
+4. how to do it?
+   git checkout master
+   git merge featureX // attempting a fast forward merge is the default
+   git branch -d featureX // to delete the topic after merging with long lived branches
+5. Merge commits:
+   Combines the commits at the tips of the merged branches. Places the result in the merge commit. 
+   A merge commit always has multiple parents. 
+   If there are multiple branches that change the same things in different ways, then we get merge conflicts. 
+   
+   git checkout master
+   git merge featureX 
+   git branch -d featureX
+6. How to make sure that git does merge commit and not fast forward merge. Just replace the old command with below command
+   git merge --no--ff featureX 
+   This way by default we will get 
+7. Merging long lived branch into another long loved branch is easy, because it can mostle be fast forwarded. 
+8. FF merge is alwys linear, while merge commit is not

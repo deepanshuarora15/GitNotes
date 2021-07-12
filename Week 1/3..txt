@@ -1,0 +1,21 @@
+1. Basic Git Syntax:
+   a. git [command] [--flags] [arguments]
+2. command is compulsory, the others are optional
+3. Eg: git status
+   // On branch master nothing to commit, working tree clean
+4. git status --short  // provides only critical status. May return nothing , if nothing critical is there
+5. Any number of flags can be added to a command. Even 0
+6. Arguments : Eg: git add newFile.txt
+7. git help [command]
+8. git // this command brings up entire git documentation for help
+9. To see your username and email address.
+   git config --global user.name
+   git config --global user.email 
+10. To set the username and password 
+    git config --global user.name 'XYZ'
+    git config --global user.email 'XYZ@gmail.com'
+11. if you are working in local repository, make sure you use --local flags on particular repositories. This way the changes you do
+    to your local ones, will be personal one, and not get merged with the company's.
+12. If local value is not set, global value becomes default. And if both local and global values are not set, then global values
+    take precedence.
+   

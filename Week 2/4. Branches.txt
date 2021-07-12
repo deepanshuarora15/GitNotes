@@ -1,0 +1,44 @@
+1. A branch points to the project's latest commit and drills down to the very first commit.
+2. Benefit of branches:
+   a. Fast and easy to create, as only a reference is created
+   b. Enable experimentation: Your work does not affect the project immediately.
+   c. Enable team development: No bottlenecks created. Each person can work simultenously and independently
+3. Branches are on types depending on longevity:
+   a. Topic: a feature/ bug fix/ hotfix/ configuration change etc. When the topic branch is ready,
+      it can be merged into one of the long running branches
+   b. Long lived: master, develop, release etc.
+4. For creating a  new branch:
+   git branch featureX
+   // this creates the branch, but you would still be in master branch. This is because the HEad has not moved.
+5. Creating a branch is nothing but creating a branch label.
+6. git checkout featureX
+   This command does:
+   a. Update the head reference
+   b. Update the working tree with the commit's files
+7. git checkout SHA-1 // this is if you want to checkout to a specific commit
+8. So in short, for creating a branch
+   a. git branch branchname
+      git checkout branchname
+   b. or shortcut in one line
+      git checkout -b branchname
+9. But the above shortcut, is only for new branches. It would fail for existing branches.
+10. Now the head moves to the new feature branch, but not the master. Master is unaware of any new branches. It still points to
+    preexisting commits.
+11. If you use
+    git checkout SHA-1
+    // this way you check into a commit. The head now points to a commit and is known as a detached HEAD
+    // it throes a warning, but no worries
+12. Deleting a branch label:  
+    Just the label gets deleted. Al the commits that you made in it, still persist
+13. git branch -d featureX // for deletion
+14. Topic branches are anyway get deleted, as and when they are merged into the long lived branch
+15. If there is a change in branch and you have not yet committed it, then git won;t allow you to delete the branch label.
+    To do forceful deletion use
+    git branch -D featureX // deleted all the dangling commits due to periodic garbage collection
+    
+16. To undo an accidental branch deletion:  
+    git reflog // returns a local list of recent Head commits. This will contain the dangling commits that you lost
+		// This way we'll have the required SHAs
+17. git checkout -b featureX {SHA} // insert the SHA you got from previous step. This way, the commit lost would be brought back
+     into the branch featureX, which will be created on the fly
+18. 

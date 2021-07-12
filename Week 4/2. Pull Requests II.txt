@@ -1,0 +1,10 @@
+1. Forking generally means copying a remote repository to your own online account.
+2. There are 2 repos:
+   a. Fork repo
+   b. Upstream repo
+3. upstream repo is the single source of truth.
+4. A fork is used to experiemnt or learn from the upstream repository.
+5. It can be used to issue pull requests to the upstream repository.
+6. Fork can also be used to create a differnt source of truth.
+7. If changes are made to upstream repo, the same are not reflected in the local repo by default. We need to sync them.
+8. After sync, you can take a pull from fork.

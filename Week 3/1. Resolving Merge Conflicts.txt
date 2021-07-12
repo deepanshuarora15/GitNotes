@@ -1,0 +1,28 @@
+1. If different branches make commits to the same file, then on merging them to master,
+   a merge conflict occurs.
+2. Good strategy:
+   a. Small & frequent changes are handled easier
+3. Resolving a merge conflict betwene 2 branches, requires 3 commits as shown in figure 1
+   a. The tip of the current branch B : ours or mine
+   b. The tip of the branch to be merged C: theirs
+   c. The common ancestor A: merge base
+4. Basic steps to resolve a merge conflict:
+   a. Checkout into the base branch: in this case master branch
+   b. Merge feature X
+      a. Conflict: Both modified A.txt
+   c. Fix fileA.txt
+   d. Stage fileA.txt
+   e. Commit the merge commit
+   f. optional: Dleete the feature X branch label
+5. In the conflicted file,
+   <<<< head 
+   // this line will be ours
+   ...
+   ...
+   feature 2 // from theirs
+   >>>>>>>>> feature2
+6. Fix the file
+7. git add fileA.txt
+8. git commit -m ""
+9. If a merge conflict occurs, Git modifies file(s) and places them in the working tree.
+10. Merge conflicts occurs when two branches modify the same hunk.

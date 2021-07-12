@@ -1,0 +1,3 @@
+1. Git uses a special kind of graph to maintain commit snapshots.
+2. Git uses a DAG : Directed Acyclic graphs
+3. Each commit is a node and there are edges directed from child commits to parent commits.

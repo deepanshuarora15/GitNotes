@@ -1,0 +1,30 @@
+1. DevOps means modern software development practices. 
+2. Git is used for continuous software improvement.
+3. Continuous improvement is a fundamental principle of DevOps. One of the key priciples is to plan, build and release small 
+   improvements to your product. This is in sharp contrast with waterfall software development lifecycle, in which features are planned,
+   developed and released, all as one batch.
+4. Small batch size leds to continous improvement. It applies for both adding features and removing bugs. 
+5. As we have established that continous improvement is better than waterfall SDLC. This is where git comes in to help.
+6. Git manages versions of a project. Each version of the project is known as a commit. In one commit if there's a bug and you fix that
+   in the next commit, then both commits are considered to be different versions of the project.
+7. Even if there's a minor difference between previous commit and the current one, that's still considered to be a different commit.
+8. Each commit is the snapshot of the entire project. So if you make a new commit, a new snapshot is taken. So question might rise,
+   isn't git inefficient then? Ans: No, git is not efficient. Behind the scenes, git is very efficient at storing commits. Each unique
+   file is stored only once.
+9. The collection of commits contains the history of the project. 
+    a. You can review the history
+    b. You can undo the change.
+10. Eg: In commit A, you add a new feature, resulting in commit B. but suppose the customers do not appreciate the new features,
+    so, there are 2 ways to fix this
+    a. we drop the feature i.e. we perform an undo. So we go A->B->A. 
+    b. Not performing undo, but removing it from the commit yourself. So the cycle is A->B->C. C is equiavalent but not equal to A.
+11. Branches : A branch can be considered to be an independent line of development of the project. All commits belong to a branch
+12. By default, there is a single branch and it is known as master. 
+13. Refer figure 1.jpeg. For feature X, we generate a branch C, which the master is unaware of. Branches are independent: you can
+    work on them without disturbing the stability of the rest of the project.
+14. Refer figure 2.jpeg. Independence of branches, helps team scale up their work. 
+15. Before merge, the master branch are unaware of all the new branches on which the new features are being developed. 
+    After merging, the master now contains the new feature that was developed.
+16. PR or Pull Requests. Once you are done developing the feature, how do you merge that into master? It cannot be and should not be done
+    directly. So the soln is pull requests. The developer of the feature raises a PR, which the team then discusses and code reviews 
+    happen. There can be automated tests also setup. Once the PR is apporved, it is merged into the master branch.

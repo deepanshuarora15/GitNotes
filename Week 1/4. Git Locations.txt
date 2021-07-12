@@ -1,0 +1,23 @@
+1. Working Tree : It is a location on your computer that contains the directories and files of your single commit.
+   This is where you can view and edit the files of your project. 
+2. Staging Area/ index : Contains the files that are planned for the next commit. Add command is used for this.
+3. Local repository : Contains all the commits of a project.
+4. Project directory = Working Tree + Staging Area + Local Repository. Staging are and local repository are maintained inside
+   the .git file. 
+5. Remote Repository: Located on cloud or datacentre. It contains the commits of the project. It is the single source of truth.
+
+
+Steps to set up repository using CLI:
+
+1. Make a central repository to store all your repositories on local
+   mkdir repos
+2. cd repos
+3. Now make a repo, that we would be pushing to github
+   mkdir myproj
+4. cd myproj
+5. git init
+   This command will return a statement saying 'initalized empty git repository in myproj/.git/
+6. We can now see the files in our folder:
+   ls -a // -a flag is used to show hidden files also if any
+   We will see a hidden file with .git extension is created
+7. The .git file contians the staging area and local repository cotaining no commits as of now. 

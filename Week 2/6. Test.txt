@@ -1,0 +1,254 @@
+1.
+Question 1
+In Git, what is modeled as a directed acyclic graph?
+
+1 / 1 point
+
+The staging area.
+
+
+The working tree.
+
+
+The commit history. Tick
+
+Correct
+This is covered in 'Git's Graph Model'.
+
+2.
+Question 2
+How are Git commits connected?
+
+1 / 1 point
+
+A commit references its parent(s). Tick
+
+
+The staging area lists the connections.
+
+
+A commit object contains the SHA-1 of its child or children.
+
+Correct
+This is covered in 'Git's Graph Model'.
+
+3.
+Question 3
+What is a Git ID?
+
+1 / 1 point
+
+The user's name and email address.
+
+
+The ID of the local repository.
+
+
+The name of a Git object. Tick
+
+Correct
+This is covered in 'Git IDs'.
+
+4.
+Question 4
+If a large file changes by one character, what would you expect to happen to its corresponding SHA-1 value?
+
+1 / 1 point
+
+It would change drastically. Tick
+
+
+It would not change.
+
+
+It would slightly change.
+
+Correct
+This is covered in 'Git IDs'.
+
+5.
+Question 5
+What do branch labels point to?
+
+1 / 1 point
+
+Every commit of a branch.
+
+
+The most recent commit of a branch. Tick
+
+
+The initial commit of a branch.
+
+Correct
+This is covered in 'References'.
+
+6.
+Question 6
+How many HEAD references are in a local repository?
+
+1 / 1 point
+
+One for each commit.
+
+
+One for each branch label.
+
+
+One. Tick
+
+Correct
+This is covered in 'References'.
+
+7.
+Question 7
+Which one of these statements is correct?
+
+1 / 1 point
+
+A tag is another name for a branch label.
+
+
+A tag always points to a specific commit. Tick
+
+
+The HEAD reference always points to a tag.
+
+Correct
+This is covered in 'References'.
+
+8.
+Question 8
+What happens when a branch is created?
+
+1 / 1 point
+
+A branch label is created. Tick
+
+
+The HEAD reference changes.
+
+
+Commits are copied.
+
+Correct
+This is covered in 'Branches'.
+
+9.
+Question 9
+Which one of these statements is correct?
+
+1 / 1 point
+
+Checkout retrieves content from the remote repository.
+
+
+Checkout prevents others from changing a branch.
+
+
+Checkout updates the working tree and HEAD reference. Tick
+
+Correct
+This is covered in 'Branches'.
+
+10.
+Question 10
+What does a detached HEAD mean?
+
+1 / 1 point
+
+The HEAD reference points to a branch label.
+
+
+The HEAD reference does not point to anything.
+
+
+The HEAD reference points directly to a commit SHA-1. Tick
+
+Correct
+This is covered in 'Branches'.
+
+11.
+Question 11
+What does "deleting a branch" immediately do?
+
+1 / 1 point
+
+Deletes only the commits that are unique to the branch.
+
+
+Deletes a branch label. Tick
+
+
+Deletes all of the commits of the branch.
+
+Correct
+This is covered in 'Branches'.
+
+12.
+Question 12
+Which one of the following statements is true?
+
+0 / 1 point
+
+A commit can only belong to one branch at a time.
+
+
+Merging combines the work of branches.
+
+
+A merge always creates a new commit. Tick
+
+Incorrect
+This is covered in 'Merging'.
+
+13.
+Question 13
+Which one of the following statements about fast-forward merges is true?
+
+1 / 1 point
+
+The merge may change some commits.
+
+
+The merge may result in a merge conflict.
+
+
+The merge moves a branch label. Tick
+
+Correct
+This is covered in 'Merging'.
+
+14.
+Question 14
+If Git informs you that a fast-forward merge is not possible, which one of these statements is most likely to be true?
+
+1 / 1 point
+
+A commit was made on the base branch after the topic branch was created. Tick
+
+
+The merge has merge conflicts that must be resolved first.
+
+
+The checked out commit has multiple parents.
+
+Correct
+This is covered in 'Merging'.
+
+15.
+Question 15
+Which one of these statements about a merge involving a merge commit is true?
+
+0 / 1 point
+
+Git places the result of the merge into a new commit.
+
+
+A merge commit results in a linear commit history.
+
+
+The merge is aborted if there are merge conflicts. Tick
+
+Incorrect
+This is covered in 'Merging'.

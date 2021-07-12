@@ -1,0 +1,30 @@
+1. Version control can be thought of, from 3 different perspectives:
+   a. Content : Complete history of the project is tracked and available at any time.
+   b. Teams : Version control systems support many workflows. They also help in collaboration. It also helps in quality management,
+      through team communication and reviews.
+   c. Agility: helps in quick adaptability for change.
+2. What type of content can  be managed? Ans: the version control system does not care about content type. As long as you think, a
+   product will be subjected to continous improvements over periods of time, then version control is the way to go. 
+3. Some of such examples are:
+   a. Source Code
+   b. Automated Tests
+   c. Server configuration
+   d. Documentation
+   e. A book
+   f. Website content
+4. Distributed Version Control Systems:
+   a. Each user has his own local copy of project history(repository) 
+   b. Users can work offline.
+   c. Remote /central repsitory : hosted on the cloud or the data centre
+   d. Repositories can be synced via:
+      a. Pushing content to , or
+      b. Pulling content from the remote repsoitory
+5. Git is a kind of distributed version control system
+6. How can git be used?
+   a. Command Line Interface
+   b. graphical user interface. Eg: SourceTree
+7. CLI is recommended as it is a required skill in the industry. Also, everything that can be done on command line is automatable.
+   automating things is also an underlying principle of DevOps. Also, CLI is fast & easy. 
+   Eg: git --version
+8. SourceTree : Recommended as some tasks are easier via GUI. 
+9. A repository contains the project history as commits. A commit is a snapshot of the entire project. 

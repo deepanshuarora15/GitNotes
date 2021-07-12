@@ -1,0 +1,17 @@
+1. Centralized Workflow:
+   a. There is only a single branch
+   b. Disadvantage: no pull requests / discussions
+2. Feature branch workflow:  
+   a. Work done on feature/topic branches
+   b. Single remote repository
+   c. Pull requests / discussion
+3. Forking workflow:
+  a. Multiple remote repositories
+  b. Pull requests/ discussions
+  c. Ad: Users do not require write access to the upstream repo
+  d. Backs Up your work in progress
+  e. Can rebase your forked branch
+  f. Dis: must sync with the upstream
+  Used often in open source projects
+4. Gitflow:
+   a. It is the workflow that allows safe and continuous releases of the product

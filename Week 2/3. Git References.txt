@@ -1,0 +1,20 @@
+1. Commits can be associated with references. A reference is a user-friendly name that points to a commit's SHA-1 value or another
+   reference. if a reference points to another reference, it's called a symbolic reference.
+2. git log
+   commit {SHA1-Value} (Head->master)
+3. git show HEAD
+   // the same commit as above would be shwon, with the same SHA-1 value, but with a little more detail than before.
+4. A branch label, points to the most recent commit in a branch. It is also known as the tip of the branch.
+   Branch labels are implemented as references.
+5. Head is the reference to the current commit. As there can only be one current commit, it points to only one.
+6. In image 1, Master label points to the most recent commit, while head points to the master label/
+7. git status // shows recent commit with SHA1
+   git show HEAD // shows the same but with a bit more detail
+8. Prior commits can be seen by using ~
+   git show Head ~
+   Note: ~ is the same as ~ 1
+   So this way, the first commit prior to current commit would be shown.
+   git show Head ~3 shows commit , which is 3 prior to current commit
+9. Annotation objects contain author name, date etc. This is what we can be seen using Git Lens
+10. A tag is a refence to a specific commit. It is used to create labels on commits.
+ 
